@@ -1,0 +1,14 @@
+.button-light {
+  color: #8582bb;
+  padding: .8em 2em;
+  border-radius: 2em;
+  background-color: #FFF;
+  font-weight: 700;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.button-light:hover {
+  background-color: #8582bb;
+  color: #FFF;
+}

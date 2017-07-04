@@ -1,3 +1,4 @@
 @import "layouts/normalize.css";
 @import "layouts/master.css";
-@import "layouts/flex.css"
+@import "layouts/flex.css";
+@import "components/button.css";
