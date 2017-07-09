@@ -2,6 +2,15 @@
 *GENERAL
 *********/
 
+* {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.w80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .w90 {
   width: 90%;
   margin: 0 auto;
@@ -48,6 +57,9 @@ header ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  font-weight: 700;
+  font-size: 1.15em;
+  letter-spacing: 0.2em;
 }
 
 header li a {
@@ -69,27 +81,22 @@ header li a:hover {
 *********/
 
 .presentation {
-  height: 70vh;
+  height: 60vh;
   background-image: url(../../images/Gym_Hero.jpg);
   /*background-size: cover;*/
   background-attachment: fixed;
   color: #FFF;
+  padding: 3em 0;
 }
 
 .presentation h1 {
   font-size: 3.5vw;
   text-transform: uppercase;
-  line-height: 3em;
 }
 
 .presentation p {
   text-align: center;
   font-size: 1.2vw;
-  line-height: 2.5em;
-}
-
-.presentation p:nth-child(2) {
-  line-height: 1.5em;
 }
 
 
@@ -108,7 +115,7 @@ header li a:hover {
   background-size: cover;
   -webkit-transition: .3s;
   transition: .3s;
-  opacity: .9;
+  opacity: .8;
 }
 
 .gallery>div:hover {
@@ -125,4 +132,171 @@ header li a:hover {
 
 .photos {
   background-image: url(../../images/Medium_3d90__MG_2082.jpg);
+}
+
+
+/********
+*COMMUNITY
+*********/
+
+.community {
+  padding: 3em 0;
+}
+
+.community h1 {
+  color: #8582bb;
+  font-weight: 700;
+  font-size: 2vw;
+  padding: 2em 0;
+}
+
+.community p {
+  font-size: 1.3vw;
+}
+
+.community p:nth-child(2), .community p:last-child {
+  font-weight: 700;
+}
+
+
+/********
+*HERO
+*********/
+
+.hero {
+  height: 40vh;
+  background-image: url(../../images/hero-banner.jpg);
+  background-position: center;
+}
+
+
+/********
+*AMENITIES
+*********/
+
+.amenities {
+  font-weight: 700;
+  padding: 3em 0;
+}
+
+.amenities>div:first-child h1 {
+  padding-top: 0;
+}
+
+.amenities h1 {
+  color: #8582bb;
+  font-size: 1.6vw;
+  padding-top: 1.5em;
+}
+
+.amenities h1 img {
+  padding-right: 1em;
+}
+
+.amenities>div {
+  width: 100%;
+}
+
+.amenities ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.amenities ul li {
+  min-width: 25%;
+  padding: 1em 0;
+}
+
+
+/********
+*SWEAT
+*********/
+
+.sweat {
+  background-image: url(../../images/anytimepricing.png);
+  background-size: cover;
+  height: 40vh;
+  color: #FFF;
+  font-size: 1.2vw;
+}
+
+.sweat h1 {
+  font-size: 3vw;
+  font-weight: 700;
+}
+
+
+/********
+*HEARTS
+*********/
+
+.hearts {
+  height: 30vh;
+  font-weight: 700;
+  padding: 2em;
+}
+
+.hearts h1 {
+  color: #8582bb;
+  font-weight: 700;
+  font-size: 2.5vw;
+}
+
+.hearts p {
+  font-size: 1.8vw;
+}
+
+
+/********
+*FOOTER
+*********/
+
+footer {
+  background-color: #333;
+  padding: 3em 0;
+  color: #FFF;
+  height: 60vh;
+}
+
+footer>div {
+  height: 100%;
+}
+
+footer .links {}
+
+footer h2 {
+  color: #8582bb;
+  font-size: 1.4vw;
+  font-weight: 700;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer hr {
+  background-color: #858585;
+  height: .2vh;
+  border: none;
+  opacity: .4;
+}
+
+footer p {
+  color: #858585;
+}
+
+.logo-social a {
+  color: #858585;
+  font-size: 1.5em;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+
 }

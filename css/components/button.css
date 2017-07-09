@@ -1,5 +1,4 @@
 .button {
-  /*margin-top: 1em;*/
   color: #8582bb;
   padding: .2em 1em;
   border-radius: 2em;
@@ -9,6 +8,7 @@
   transition: .4s;
   -webkit-box-shadow: .5em .5em 1em #8582bb;
   box-shadow: .5em .5em 1em #8582bb;
+  line-height: 2.5em;
 }
 
 .button:hover {
@@ -55,16 +55,16 @@
     transform: scale(1) rotate(0deg);
   }
   40% {
-    -webkit-transform: scale(1) rotate(10deg);
-    transform: scale(1) rotate(10deg);
+    -webkit-transform: scale(1) rotate(5deg);
+    transform: scale(1) rotate(5deg);
   }
   60% {
-    -webkit-transform: scale(1) rotate(-10deg);
-    transform: scale(1) rotate(-10deg);
+    -webkit-transform: scale(1) rotate(-5deg);
+    transform: scale(1) rotate(-5deg);
   }
   80% {
-    -webkit-transform: scale(1) rotate(10deg);
-    transform: scale(1) rotate(10deg);
+    -webkit-transform: scale(1) rotate(5deg);
+    transform: scale(1) rotate(5deg);
   }
   100% {
     -webkit-transform: scale(1) rotate(0deg);
@@ -82,16 +82,16 @@
     transform: scale(1) rotate(0deg);
   }
   40% {
-    -webkit-transform: scale(1) rotate(10deg);
-    transform: scale(1) rotate(10deg);
+    -webkit-transform: scale(1) rotate(5deg);
+    transform: scale(1) rotate(5deg);
   }
   60% {
-    -webkit-transform: scale(1) rotate(-10deg);
-    transform: scale(1) rotate(-10deg);
+    -webkit-transform: scale(1) rotate(-5deg);
+    transform: scale(1) rotate(-5deg);
   }
   80% {
-    -webkit-transform: scale(1) rotate(10deg);
-    transform: scale(1) rotate(10deg);
+    -webkit-transform: scale(1) rotate(5deg);
+    transform: scale(1) rotate(5deg);
   }
   100% {
     -webkit-transform: scale(1) rotate(0deg);
